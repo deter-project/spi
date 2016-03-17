@@ -14,3 +14,21 @@ build/
 doc/
 .*.swp
 tags
+
+# Java artifacts
+*.class
+
+# Gradle artifacts
+.gradle/
+
+# Eclipse artifacts
+bin/
+!util/bin
+.settings/
+.classpath
+.project
+
+# Idea artifacts
+.idea
+*.iml
+*.ipr
