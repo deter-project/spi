@@ -916,7 +916,7 @@ CREATE TABLE `resources` (
   `type` varchar(256) DEFAULT NULL,
   `persist` tinyint(4) DEFAULT '0',
   `description` text,
-  `data` blob,
+  `data` mediumblob,
   PRIMARY KEY (`idx`),
   UNIQUE KEY `name` (`name`)
 ) ENGINE=InnoDB AUTO_INCREMENT=28088 DEFAULT CHARSET=latin1;
